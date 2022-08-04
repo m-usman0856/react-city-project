@@ -1,10 +1,9 @@
 import React from "react";
 import "../sass/nav.scss";
-import logo from "../../public/img/logo.png";
 const NavBar = () => {
   return (
     <nav className="navbar">
-      <img src={logo} alt="City Tour"></img>
+      <img src="./img/logo.png" alt="City Tour"></img>
       <ul className="nav-links">
         <li>
           <a href="/" className="nav-link">
