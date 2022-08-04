@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+$mainBlack: #222;
+$mainGreen: rgb(6, 183, 74);
+$mainWhite: #ffffff;
+$mainGrey: #ececec;
+
+body{
+    background: $mainWhite;
+    color: $mainBlack;
+    font-family: 'Source Code Pro', monospace;
+}
