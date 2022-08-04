@@ -2,7 +2,7 @@ import { useState } from "react";
 import "../sass/tour.scss";
 
 const Tour = (props) => {
-  const [tour, setTour] = useState(props.tour);
+  const [tour] = useState(props.tour);
   const [showInfo, setShowInfo] = useState(false);
 
   const handleInfoClick = () => {
