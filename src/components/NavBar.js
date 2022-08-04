@@ -1,6 +1,6 @@
 import React from "react";
 import "../sass/nav.scss";
-import logo from "../img/logo.png";
+import logo from "../../public/img/logo.png";
 const NavBar = () => {
   return (
     <nav className="navbar">
